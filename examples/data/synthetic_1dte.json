@@ -10,5 +10,7 @@
   "rates_used_for_generation": {
     "r": 0.0425,
     "q": 0.0135
-  }
+  },
+  "license": "CC BY 4.0 (see LICENSE-CC-BY-4.0 at the root of the repository)",
+  "attribution": "Please cite A. Wizman, G. Turinici and G. Merran, From Arbitrage Removal to Density Extraction: A Model-Free Framework for Short-Dated Options, arXiv:2605.22792."
 }

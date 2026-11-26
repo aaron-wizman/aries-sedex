@@ -127,4 +127,4 @@ RUN_SLOW=1 pytest         # also the full run on the example slice
 
 ## License
 
-MIT, see `LICENSE`.
+The code is released under the MIT licence (`LICENSE`). The synthetic data in `examples/data` are released under the Creative Commons Attribution 4.0 International licence (`LICENSE-CC-BY-4.0`); when you use them, please cite the paper above.
