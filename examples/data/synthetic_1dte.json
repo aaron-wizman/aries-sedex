@@ -1,0 +1,14 @@
+{
+  "description": "Synthetic one-day-to-expiry (1DTE) slice of index options. The quotes are generated from a parametric model and are not market data.",
+  "underlying": "SYN (fictitious index)",
+  "spot": 5187.36,
+  "maturity_days": 1,
+  "maturity_years": 0.0027397260273972603,
+  "strike_lattice": 5.0,
+  "price_units": "index points",
+  "tick_rule": "0.05 below 3.00, 0.10 at or above 3.00",
+  "rates_used_for_generation": {
+    "r": 0.0425,
+    "q": 0.0135
+  }
+}

@@ -1,0 +1,10 @@
+# Versions used to produce the example outputs (Python 3.12).
+# Any version allowed by pyproject.toml should also work.
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.2
+cvxpy==1.7.5
+clarabel==0.11.1
+highspy==1.15.1
+matplotlib==3.11.2
+pytest

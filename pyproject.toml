@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aries-sedex"
+version = "1.0.0"
+description = "Arbitrage removal (ARIES) and risk-neutral density extraction (SEDEx) for short-dated options"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Aaron Wizman" },
+    { name = "Gabriel Turinici" },
+    { name = "Gregory Merran" },
+]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "pandas>=2.0",
+    "cvxpy>=1.6.5",
+    "clarabel>=0.9",
+    "highspy>=1.7",
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+notebook = ["jupyter"]
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2605.22792"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

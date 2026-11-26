@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# environments
+.venv/
+venv/
+env/
+
+# tools
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# outputs of the example script (the figures used in the README are kept)
+examples/output/
+
+# never commit market data: only synthetic data belong to this repository
+*.parquet
+data_private/

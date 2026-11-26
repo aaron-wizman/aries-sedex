@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "aries-sedex: arbitrage removal and density extraction for short-dated options"
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: Wizman
+    given-names: Aaron
+  - family-names: Turinici
+    given-names: Gabriel
+  - family-names: Merran
+    given-names: Gregory
+preferred-citation:
+  type: article
+  title: "From Arbitrage Removal to Density Extraction: A Model-Free Framework for Short-Dated Options"
+  authors:
+    - family-names: Wizman
+      given-names: Aaron
+    - family-names: Turinici
+      given-names: Gabriel
+    - family-names: Merran
+      given-names: Gregory
+  journal: "arXiv preprint arXiv:2605.22792"
+  year: 2026
+  url: "https://arxiv.org/abs/2605.22792"
