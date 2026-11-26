@@ -14,7 +14,7 @@ The package also contains the steps that precede ARIES in the paper: estimation 
 Python 3.10 or later.
 
 ```bash
-git clone https://github.com/wizman26/aries-sedex.git
+git clone https://github.com/aaron-wizman/aries-sedex.git
 cd aries-sedex
 python -m venv .venv
 source .venv/bin/activate          # on Windows: .venv\Scripts\activate
