@@ -3,6 +3,8 @@ message: "If you use this software, please cite the paper below."
 title: "aries-sedex: arbitrage removal and density extraction for short-dated options"
 version: 1.0.0
 license: MIT
+date-released: "2026-11-27"
+repository-code: "https://github.com/aaron-wizman/aries-sedex"
 authors:
   - family-names: Wizman
     given-names: Aaron
