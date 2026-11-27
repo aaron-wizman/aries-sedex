@@ -1,5 +1,7 @@
 # ARIES and SEDEx
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24591173.svg)](https://doi.org/10.5281/zenodo.24591173)
+
 Python implementation of the two procedures introduced in
 
 > A. Wizman, G. Turinici and G. Merran, *From Arbitrage Removal to Density Extraction: A Model-Free Framework for Short-Dated Options*, arXiv preprint [arXiv:2605.22792](https://arxiv.org/abs/2605.22792).
@@ -115,6 +117,8 @@ RUN_SLOW=1 pytest         # also the full run on the example slice
 ```
 
 ## Citation
+
+Please cite the paper below. The software itself is archived on Zenodo: [10.5281/zenodo.24591173](https://doi.org/10.5281/zenodo.24591173) (all versions; version 1.0.0: [10.5281/zenodo.24591174](https://doi.org/10.5281/zenodo.24591174)).
 
 ```bibtex
 @article{wizman2026arbitrage,

@@ -5,6 +5,14 @@ version: 1.0.0
 license: MIT
 date-released: "2026-11-27"
 repository-code: "https://github.com/aaron-wizman/aries-sedex"
+doi: 10.5281/zenodo.24591173
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24591173
+    description: "Concept DOI: all versions, resolves to the latest one."
+  - type: doi
+    value: 10.5281/zenodo.24591174
+    description: "Version 1.0.0."
 authors:
   - family-names: Wizman
     given-names: Aaron
